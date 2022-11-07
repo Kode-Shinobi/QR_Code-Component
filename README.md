@@ -39,6 +39,6 @@ I want to learn CSS animation and arrangement of items on the page
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Kode-Shinobi)
+- Frontend Mentor - [@Kodi Shonobi](https://www.frontendmentor.io/profile/Kode-Shinobi)
 - Twitter - [@Mac_Nkhata](https://www.twitter.com/Mac_Nkhata)
 
