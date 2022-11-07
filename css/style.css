@@ -1,0 +1,90 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+    font-size: 15px;
+    
+}
+
+body{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #d6e2f0;
+}
+
+.card{
+    width: 335px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 4px 8px 20px #b0b0b0;
+}
+
+
+.img-container{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.img-container img{
+    max-width: 100%;
+    border-radius: 30px;
+}
+
+.description{
+    text-align: center;
+}
+
+.main-desc{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f3251;
+    padding-bottom: 20px;
+}
+
+.support-desc{
+    font-size: 18px;
+    font-weight: 400;
+    color: #7b879d;
+    margin-bottom: 20px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+
+.attribution {
+        font-size: 11px;
+        margin-bottom: 10px;
+      }
+.attribution a {
+        color: #1f3251;
+      }
+
+@media screen and (max-width: 375px) {
+
+    .card{
+        width: 270px;
+    }
+
+    .main-desc{
+        font-size: 20px;
+    }
+
+    .support-desc{
+        font-size: 16px;
+    }
+
+    .attribution{
+        font-size: 8px;
+    }
+}
